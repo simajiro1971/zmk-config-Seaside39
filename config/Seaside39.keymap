@@ -28,7 +28,7 @@
             label = "TO_LAYER_0";
         };
 
- mkp_exit_AML: mkp_exit_AML {
+        mkp_exit_AML: mkp_exit_AML {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
             bindings =
@@ -42,7 +42,6 @@
 
             label = "MKP_EXIT_AML";
         };
-
     };
 
     behaviors {
@@ -90,7 +89,7 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &mkp MB4                &kp UP_ARROW    &mkp MB5                 &trans                       &kp K_SCROLL_UP    &kp HOME        &kp UP_ARROW    &kp END          &none
+&kp ESCAPE      &mkp MB4                &kp UP_ARROW    &mkp MB5                 &trans                       &kp K_SCROLL_UP    &kp HOME        &none           &kp END          &none
 &kp HOME        &kp LEFT_ARROW          &kp UP_ARROW    &kp RIGHT_ARROW          &kp END                      &kp K_SCROLL_DOWN  &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &none
 &kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &kp DOWN_ARROW  &kp LG(LS(RIGHT_ARROW))  &trans                       &none              &none           &kp DOWN_ARROW  &none            &none
 &trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &kp BACKSPACE                                                       &trans
