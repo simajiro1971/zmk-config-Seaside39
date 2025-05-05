@@ -61,8 +61,8 @@
         default_layer {
             bindings = <
 &kp Q           &kp L      &kp U         &kp COMMA  &kp PERIOD                                      &kp F        &kp W  &kp R  &kp Y  &kp P
-&kp E           &kp I      &kp A         &kp O      &kp MINUS                                       &kp K        &kp T  &kp N  &kp S  &kp H
-&kp Z           &kp X      &kp C         &kp V      &kp QUESTION                                    &kp G        &kp D  &kp M  &kp J  &kp B
+&kp E           &kp I      &kp A         &kp O      &kp MINUS                                       &kp K        &kp T  &kp N  &kp S  &lt 4 H
+&kp Z           &kp X      &kp C         &kp V      &kp QUESTION                                    &kp G        &kp D  &kp M  &kp J  &lt 5 B
 &kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &lt 3 TAB  &lt 1 SPACE   &kp LS(SPACE)      &kp BACKSPACE  &lt 2 ENTER                       &lt 6 ESCAPE
             >;
 
@@ -100,8 +100,8 @@
 
         MOUSE {
             bindings = <
-&trans                &trans    &trans    &trans    &trans                      &none     &to 0     &none     &none     &none
-&trans                &mkp MB2  &mkp MB3  &mkp MB1  &trans                      &mkp MB4  &mkp MB1  &mkp MB3  &mkp MB2  &mkp MB5
+&trans                &trans    &trans    &trans    &trans                      &none     &none     &none     &none     &none
+&trans                &mkp MB2  &mkp MB3  &mkp MB1  &trans                      &mkp MB4  &mkp MB1  &mkp MB3  &mkp MB2  &none
 &kp LS(LC(LEFT_WIN))  &trans    &trans    &trans    &trans                      &none     &none     &none     &mkp MB2  &none
 &trans                &trans    &trans    &trans    &trans  &trans      &trans  &trans                                  &none
             >;
